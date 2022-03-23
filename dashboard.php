@@ -14,7 +14,7 @@
           if(mysqli_num_rows($result) > 0){
             while($row = mysqli_fetch_assoc($result)){ ?>
             <div class="card" style="width: 14rem; margin: 0 auto;">
-              <div class="card-body text-center bg-success">
+              <div class="card-body text-center bg-primary">
                 <p class="card-text"><?php echo $row['total_author']; ?></p>
                 <h5 class="card-title mb-0">Authors Record</h5>
               </div>
@@ -29,7 +29,7 @@
             if(mysqli_num_rows($result) > 0){
               while($row = mysqli_fetch_assoc($result)){ ?>
               <div class="card" style="width: 14rem; margin: 0 auto;">
-                <div class="card-body text-center bg-success">
+                <div class="card-body text-center bg-primary">
                   <p class="card-text"><?php echo $row['total_publisher']; ?></p>
                   <h5 class="card-title mb-0">Publishers Record</h5>
                 </div>
@@ -44,7 +44,7 @@
             if(mysqli_num_rows($result) > 0){
               while($row = mysqli_fetch_assoc($result)){ ?>
               <div class="card" style="width: 14rem; margin: 0 auto;">
-                <div class="card-body text-center bg-success">
+                <div class="card-body text-center bg-primary">
                   <p class="card-text"><?php echo $row['total_category']; ?></p>
                   <h5 class="card-title mb-0">Books Categories</h5>
                 </div>
@@ -59,7 +59,7 @@
             if(mysqli_num_rows($result) > 0){
               while($row = mysqli_fetch_assoc($result)){ ?>
               <div class="card" style="width: 14rem; margin: 0 auto;">
-                <div class="card-body text-center bg-success">
+                <div class="card-body text-center bg-primary">
                   <p class="card-text"><?php echo $row['total_book']; ?></p>
                   <h5 class="card-title mb-0">Books Record</h5>
                 </div>
@@ -74,7 +74,7 @@
             if(mysqli_num_rows($result) > 0){
               while($row = mysqli_fetch_assoc($result)){ ?>
               <div class="card" style="width: 14rem; margin: 0 auto;">
-                <div class="card-body text-center bg-success">
+                <div class="card-body text-center bg-primary">
                   <p class="card-text"><?php echo $row['total_student']; ?></p>
                   <h5 class="card-title mb-0">Register Students</h5>
                 </div>
@@ -89,7 +89,7 @@
             if(mysqli_num_rows($result) > 0){
               while($row = mysqli_fetch_assoc($result)){ ?>
               <div class="card " style="width: 14rem; margin: 0 auto;">
-                <div class="card-body text-center bg-success">
+                <div class="card-body text-center bg-primary">
                   <p class="card-text"><?php echo $row['total_book_issue']; ?></p>
                   <h5 class="card-title mb-0">Book Issued</h5>
                 </div>
